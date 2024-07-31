@@ -1,7 +1,7 @@
 --[[
 ╭━╮╱╭╮╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╭╮            |
 ┃┃╰╮┃┃╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱┃┃            |
-┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Nameless Admin source, feel free to take a look around.
+┃╭╮╰╯┣━━┳╮╭┳━━┫┃╭━━┳━━┳━━╮┃┃╱┃┣━╯┣╮╭┳┳━╮     | Welcome to the Hakai Admin source, feel free to take a look around.
 ┃┃╰╮┃┃╭╮┃╰╯┃┃━┫┃┃┃━┫━━┫━━┫┃╰━╯┃╭╮┃╰╯┣┫╭╮╮    | Enjoy.
 ┃┃╱┃┃┃╭╮┃┃┃┃┃━┫╰┫┃━╋━━┣━━┃┃╭━╮┃╰╯┃┃┃┃┃┃┃┃    |
 ╰╯╱╰━┻╯╰┻┻┻┻━━┻━┻━━┻━━┻━━╯╰╯╱╰┻━━┻┻┻┻┻╯╰╯    |
@@ -23,7 +23,7 @@
  Notify({
 		 Description = "https://discord.gg/pnPVKKdpfd";
 		 Title = "Join the Discord Server!";
-		 Duration = 20;
+		 Duration = 5;
 		 
 });
  
@@ -33,16 +33,16 @@
  
  -- Creates folder & files for Prefix & Plugins
  if FileSupport then
- if not isfolder('Nameless-Admin') then
- makefolder('Nameless-Admin')
+ if not isfolder('Hakai-Admin') then
+ makefolder('Hakai-Admin')
  end
  
- if not isfolder('Nameless-Admin/Plugins') then
-	 makefolder('Nameless-Admin/Plugins')
+ if not isfolder('Hakai-Admin/Plugins') then
+	 makefolder('Hakai-Admin/Plugins')
  end
  
  if not isfile("Nameless-Admin/Prefix.txt") then
- writefile("Nameless-Admin/Prefix.txt", ';')
+ writefile("Hakai-Admin/Prefix.txt", ';')
  else
  end
  end
